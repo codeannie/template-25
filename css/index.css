@@ -21,6 +21,17 @@ ul {
   padding: 0;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  align-self: center;
+}
+
 /* LINKS  */
 a:link {
   text-decoration: none;
