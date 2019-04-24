@@ -1,3 +1,36 @@
 * {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* LINKS  */
+a:link {
+  text-decoration: none;
+  color: #00766c;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #64d8cb
 }
