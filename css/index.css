@@ -34,3 +34,16 @@ a:visited {
 a:hover {
   color: #64d8cb
 }
+
+/* NAV */
+
+nav, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+li {
+  display: inline;
+}
