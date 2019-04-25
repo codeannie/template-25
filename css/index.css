@@ -16,15 +16,16 @@ ul {
   padding: 0;
 }
 
-main {
+#main-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 100vh;
 }
 
-section {
-  align-self: center;
+main section:not(.show) {
+  display: none;
 }
 
 /* LINKS  */
@@ -42,15 +43,15 @@ a:hover {
 }
 
 /* NAV */
-
-nav,
-footer {
+nav ul,
+footer ul {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-li {
-  display: inline;
+#nav li,
+#footer li {
+  margin: 1rem;
 }
