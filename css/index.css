@@ -7,9 +7,9 @@
 }
 
 /* this helps to see all the margins & padding */
-* {
+/* * {
   outline: 1px red dotted;
-}
+} */
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -64,13 +64,25 @@ footer ul {
   flex-wrap: wrap;
 }
 
-#nav li,
-#footer li {
-  margin: 1rem;
-}
-
 /* SECTIONS */
 
 h1, p {
   text-align: center;
+}
+
+/* BUTTONS */
+#nav li,
+#footer li {
+  margin: 1rem;
+  padding: 10px;
+}
+
+#nav li {
+  border: 1px solid grey;
+  border-radius: 25% / 50%;
+}
+
+#footer li {
+  border: 1px solid grey;
+  border-radius: 50%;
 }
