@@ -68,3 +68,9 @@ footer ul {
 #footer li {
   margin: 1rem;
 }
+
+/* SECTIONS */
+
+h1, p {
+  text-align: center;
+}
