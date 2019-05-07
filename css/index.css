@@ -70,6 +70,20 @@ h1, p {
   text-align: center;
 }
 
+ul.project-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.screenshot {
+  height: 100%;
+  width: 100%;
+  border: 1px black solid;
+  margin-bottom: 10px;
+}
+
 /* BUTTONS */
 #nav li,
 #footer li {

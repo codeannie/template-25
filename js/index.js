@@ -10,8 +10,11 @@
 
 function handleNav() {
   $('#nav a').on('click', e => {
+    let id = $(this).attr('id');
+    console.log('id? ->', id)
+    console.log('event data', e)
     e.preventDefault();
-    console.log(e.target.innerHTML);
+    console.log('inner html ->', e.target.innerHTML);
     $('.show').removeClass('show');
     // refactor this solution
     // $(e.target).addClass('show');
