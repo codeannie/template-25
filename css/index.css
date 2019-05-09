@@ -36,8 +36,8 @@ main section:not(.show) {
 }
 
 main {
-  border-top: 1px grey solid;
-  border-bottom: 1px grey solid;
+  border-top: 1px #C4C2C1 solid;
+  border-bottom: 1px #C4C2C1 solid;
   width: 100%;
 }
 
@@ -53,6 +53,10 @@ a:visited {
 
 a:hover {
   color: #64d8cb
+}
+
+.nav-item:hover {
+  border: 1px solid red;
 }
 
 /* NAV */
@@ -92,11 +96,11 @@ ul.project-items {
 }
 
 #nav li {
-  border: 1px solid grey;
+  border: 1px solid #00766c;
   border-radius: 25% / 50%;
 }
 
 #footer li {
-  border: 1px solid grey;
+  border: 1px solid #00766c;
   border-radius: 50%;
 }
