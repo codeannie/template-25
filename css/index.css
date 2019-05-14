@@ -55,8 +55,12 @@ a:hover {
   color: #64d8cb
 }
 
-.nav-item:hover {
-  border: 1px solid red;
+#nav li:hover {
+  border: 1px solid #64d8cb
+}
+
+#footer li:hover {
+  border: 1px solid #64d8cb
 }
 
 /* NAV */
