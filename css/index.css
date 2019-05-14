@@ -58,13 +58,16 @@ a:hover {
 }
 
 #nav a, #footer a {
-  margin: 1rem;
+  margin: .50rem;
   padding: 10px;
 }
 
 #nav a {
+  display: flex;
+  justify-content: center;
   border: 1px solid #CCCCCC; 
   border-radius: 25% / 50%;
+  width: 6.5rem;
 }
 
 #footer a {
